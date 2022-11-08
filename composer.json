@@ -1,0 +1,16 @@
+{
+    "name": "nikcrazy37/composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nikcrazy37\\ComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nikcrazy37",
+            "email": "nik_crazy@bk.ru"
+        }
+    ],
+    "require": {}
+}

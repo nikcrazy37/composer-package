@@ -8,7 +8,6 @@
 $ composer require nikcrazy37/composer-package
 ```
 
-
 ## Использование
 
 ```php

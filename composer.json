@@ -12,5 +12,7 @@
             "email": "nik_crazy@bk.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }

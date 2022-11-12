@@ -41,7 +41,7 @@ class StringRedactor
             }
 
             return strtoupper($this->string);
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             return $e->getMessage();
         }
     }

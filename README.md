@@ -17,5 +17,11 @@ $ composer require nikcrazy37/composer-package
 ```php
 <?php
 $redactor = new StringRedactor();
-echo $redactor->setUpper('Some string'); // SOME STRING
+$redactor->setString('Some string');
+echo $redactor->setUpper(); // SOME STRING
+
+// OR
+
+$redactor = new StringRedactor('Some string');
+echo $redactor->setUpper(); // SOME STRING
 ```
